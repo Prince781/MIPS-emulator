@@ -1,6 +1,5 @@
-Author: Princeton Ferro
-CSC 252
-Project 3 - MIPS Emulator
+#MIPS Emulator (Project 3)
+This is for my CSC 252 class.
 
 This emulator implements a [subset](InstructionSubset.pdf) of the MIPS
 [instruction set](MipsInstructionSetReference.pdf).
