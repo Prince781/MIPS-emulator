@@ -2,6 +2,9 @@ Author: Princeton Ferro
 CSC 252
 Project 3 - MIPS Emulator
 
+This emulator implements a [subset](InstructionSubset.pdf) of the MIPS
+[instruction set](MipsInstructionSetReference.pdf).
+
 Please see these source code files for more detail:
 - Instruction.[ch]
 - RegFile.[ch]
@@ -20,5 +23,5 @@ Basic ideas:
  - save information, execute next instruction, branch/jump depending on conditions
  - for bnel/etc we retire the next instruction by writing a nop
 
-##Running
+Running:
 `./eMIPS [path to binary] [max instructions]`
